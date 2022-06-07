@@ -32,7 +32,8 @@ router.get('/hello', function (req, res) {
     let arr2 = [3, 8, 6]
     let arr3 = [7, 2, 1]
     let arr4 = [5, 4, 8]
-    console.log('Merged array with unique values: ',lodash.union(arr1, arr2, arr3, arr4,))
+    let arr5 = [5, 4, 8]
+    console.log('Merged array with unique values: ',lodash.union(arr1, arr2, arr3, arr4, arr5))
 
     let movie1 = ['horror', 'The House Next Door']
     let movie2 = ['drama','3 Idiots']
